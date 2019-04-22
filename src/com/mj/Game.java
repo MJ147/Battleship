@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Game {
 
-    private InputField input = new InputField();
-    private ArrayList<Battleship> battleshipList = new ArrayList<>();
+    protected InputField input = new InputField();
+    protected ArrayList<Battleship> battleshipList = new ArrayList<>();
     private int numberOfMoves = 0;
 
     public void prepareGame() {
@@ -57,8 +57,6 @@ public class Game {
             }
 
         }
-
-        System.out.println(resultOfMove);
 
     }
 
