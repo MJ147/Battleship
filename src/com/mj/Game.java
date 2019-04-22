@@ -22,7 +22,7 @@ public class Game {
             battleship.setPosition(input.setupBattleship(3));
 
         }
-            System.out.println("Wprowadzaj współrzędne pól (np. A2, E5) w celu zatopienia wszystkich okrętów przeciwnika");
+            System.out.println("Wprowadzaj współrzędne pól np. A2, E5 (plansza od A0 do F6). Zatop wszystkie okręty przeciwnika!");
     }
 
     public void startGame() {
@@ -46,7 +46,7 @@ public class Game {
             resultOfMove = battleship.check(move);
 
             if (resultOfMove.equals("trafiony")){
-
+                System.out.println(resultOfMove);
                 break;
             }
 
