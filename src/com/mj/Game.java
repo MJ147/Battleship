@@ -11,7 +11,7 @@ public class Game {
     public void prepareGame() {
 
         Battleship bismarck = new Battleship("Bismarck");
-        Battleship arizona = new Battleship("Arizon");
+        Battleship arizona = new Battleship("Arizona");
         Battleship missouri = new Battleship("Missouri");
         battleshipList.add(bismarck);
         battleshipList.add(arizona);
